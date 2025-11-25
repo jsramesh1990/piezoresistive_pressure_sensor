@@ -1,0 +1,14 @@
+[Unit]
+Description=Pressure GUI
+After=network.target
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+ExecStart=/path/to/your/repo/bin/pressure_gui --bus=4 --addr=0x48
+Restart=on-failure
+User=yourusername
+
+[Install]
+WantedBy=default.target
+
