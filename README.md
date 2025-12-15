@@ -26,12 +26,12 @@ It includes a custom Yocto meta-layer, device-tree overlay, kernel fragment, sys
 
 This project reads **analog pressure** from a *piezoresistive pressure sensor* (PDF included in `docs/`) using an **ADS1115 ADC** and exposes the data via **IIO subsystem** on Qualcomm hardware.
 
-### ✔ Works on:
+###  Works on:
 
 * Qualcomm Snapdragon boards (C8750, APQ8096, APQ8098, RB3/RB5, etc.)
 * Any Yocto-based BSP with available I²C interface
 
-### ✔ Provides:
+###  Provides:
 
 * Yocto Layer: `meta-pressure/`
 * Kernel Config Fragment
@@ -77,15 +77,15 @@ pressure-qualcomm-project/
 
 #  **Hardware Requirements**
 
-### ✔ Piezoresistive pressure sensor
+###  Piezoresistive pressure sensor
 
 (Analog bridge output — described in included PDF)
 
-### ✔ ADC (Recommended)
+###  ADC (Recommended)
 
 * Texas Instruments **ADS1115** (I2C, 16-bit, differential)
 
-### ✔ Qualcomm Development Board
+###  Qualcomm Development Board
 
 Examples:
 
@@ -93,7 +93,7 @@ Examples:
 * RB3 / RB5
 * APQ8096 / APQ8098
 
-### ✔ Power & Wiring
+###  Power & Wiring
 
 * 3.3V supply for ADS1115
 * Common GND
@@ -121,7 +121,7 @@ See full wiring in `wiring/WIRING.md`
 
 #  **Yocto BSP Integration**
 
-## 1️⃣ Add Layer to Yocto
+## 1️ Add Layer to Yocto
 
 Edit `bblayers.conf`:
 
@@ -133,7 +133,7 @@ BBLAYERS += " \
 
 ---
 
-## 2️⃣ Add Kernel Fragment
+## 2️ Add Kernel Fragment
 
 The file `kernel/ads1115.cfg` enables:
 
@@ -146,7 +146,7 @@ Included automatically through:
 
 ---
 
-## 3️⃣ Add Device Tree Overlay
+## 3️ Add Device Tree Overlay
 
 Located at:
 
@@ -278,15 +278,4 @@ docs/Fachbeitrag_Piezo_e.pdf
 MIT License — free for commercial and personal use.
 
 ---
-
-#  **Support & Customization**
-
-If you want, I can generate:
-
-✔ A full **flowchart**
-✔ System **block diagram**
-✔ Professional **architecture diagrams**
-✔ Advanced **DTS for your exact Qualcomm board**
-✔ **MQTT / Cloud upload support**
-✔ A GUI for real-time graphing
 
