@@ -1,6 +1,4 @@
 
-# **Qualcomm Pressure Sensing System — Yocto BSP Integration**
-
 # Qualcomm Pressure Sensing System — Yocto BSP Integration
 
 ![Yocto](https://img.shields.io/badge/Yocto-Project-blueviolet)
@@ -16,20 +14,6 @@
 
 
 **Piezoresistive Pressure Sensor + ADS1115 ADC + Qualcomm SoC + Yocto BSP**
-
-
-# Qualcomm Pressure Sensing System — Yocto BSP Integration
-
-![Yocto](https://img.shields.io/badge/Yocto-Project-blueviolet)
-![Linux](https://img.shields.io/badge/Linux-Kernel-yellow)
-![Qualcomm](https://img.shields.io/badge/SoC-Qualcomm%20Snapdragon-red)
-![IIO](https://img.shields.io/badge/Subsystem-IIO-orange)
-![ADC](https://img.shields.io/badge/ADC-ADS1115-blue)
-![Sensor](https://img.shields.io/badge/Sensor-Piezoresistive-green)
-![Python](https://img.shields.io/badge/Python-Daemon-3776AB)
-![systemd](https://img.shields.io/badge/init-systemd-lightgrey)
-![BSP](https://img.shields.io/badge/BSP-Yocto%20Meta--Layer-success)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 
 This repository provides a complete implementation for integrating a **piezoresistive pressure sensor** with a **Qualcomm-based development board** using **Yocto Project Build System**.
